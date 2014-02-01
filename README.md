@@ -42,11 +42,11 @@ Note: This extension does not provide a means of automatically pulling a current
 
 Change Log
 ----------
-Version 1
-  - Initial version, tested against Magento 1.6.0.0
+v1.1.0
+- Now gives the option to show an iframe on the checkout page instead of redirecting to bitpay.com.
 
-Version 2
-  - Now supports API keys instead of SSL files.  Tested against 1.7.0.2.
- 
-Version 3
-  - Now gives the option to show an iframe on the checkout page instead of redirecting to bitpay.com.
+v1.0.0
+- Now supports API keys instead of SSL files.  Tested against 1.7.0.2.
+
+v0.1.0
+- Initial version, tested against Magento 1.6.0.0
