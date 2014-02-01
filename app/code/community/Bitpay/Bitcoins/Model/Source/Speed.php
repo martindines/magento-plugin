@@ -2,7 +2,7 @@
 
 /**
  * ©2011,2012,2013,2014 BITPAY, INC.
- * 
+ *
  * Permission is hereby granted to any person obtaining a copy of this software
  * and associated documentation for use and/or modification in association with
  * the bitpay.com service.
@@ -14,27 +14,27 @@
  * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
- * 
+ *
  * Bitcoin payment plugin using the bitpay.com service.
- * 
+ *
  */
- 
-class Bitpay_Bitcoins_Model_Source_Speed {
-  public function toOptionArray() {
-    return array(
-      array(
-            'value' => 'low',
-            'label' => 'Low',
-           ),
-      array(
-            'value' => 'medium',
-            'label' => 'Medium',
-           ),
-      array(
-            'value' => 'high',
-            'label' => 'High',
-           ));	
-  }
-}
 
-?>
+class Bitpay_Bitcoins_Model_Source_Speed
+{
+    public function toOptionArray()
+    {
+        return array(
+            array(
+                'value' => 'low',
+                'label' => 'Low',
+            ),
+            array(
+                'value' => 'medium',
+                'label' => 'Medium',
+            ),
+            array(
+                'value' => 'high',
+                'label' => 'High',
+            ));
+    }
+}

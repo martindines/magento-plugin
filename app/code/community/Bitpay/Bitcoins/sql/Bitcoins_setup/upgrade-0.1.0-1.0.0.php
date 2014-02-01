@@ -1,7 +1,7 @@
 <?php
 
 $installer = $this;
-$installer->startSetup(); 
+$installer->startSetup();
 
 $installer->run("
 CREATE TABLE IF NOT EXISTS `{$installer->getTable('Bitcoins/ipn')}` (
@@ -22,5 +22,5 @@ CREATE TABLE IF NOT EXISTS `{$installer->getTable('Bitcoins/ipn')}` (
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 ;
  
 ");
- 
+
 $installer->endSetup();

@@ -4,7 +4,7 @@
 			<active>true</active>
 			<codePool>community</codePool>
 			<depends>
-				<Mage_Payment />
+				<Mage_Payment/>
 			</depends>
 		</Bitpay_Bitcoins>
 	</modules>
